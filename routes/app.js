@@ -5,7 +5,7 @@ let Camp = require("../models/camp");
 //angular.module("myapp", ["ngRoute"]);
 //router.css(request, response);
 
-//get a list of camp supplies
+// get a list of camp supplies
 router.get("/camp", function(req,res){
     Camp.find().then(function(camp){
         res.json(camp)

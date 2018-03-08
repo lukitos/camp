@@ -8,12 +8,10 @@ let Schema = mongoose.Schema;
 //Create camp Schema and model
 let CampSchema = new Schema ({
 weather: {
-        type: String,
-        required: [true,"weather field is required"]
+        type: Boolean,
+        required: [true,"weather field is required"],
+        default: true
     },
-hot: {
-    type: String
-},
 available: {
     type: Boolean,
     default: false

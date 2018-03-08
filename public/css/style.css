@@ -106,86 +106,13 @@ li a:hover {
 
 }
 
-/* About page */
-  #h1 {
-    text-align: center;
-    color: black;
-    font-family: comic sans ms;
-    font-size: 16px;
-  }
-  #paragraph {
-    font-family: comic sans ms;
-    color: white;
-    font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .text{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-family: comic sans ms;
-    font-size: 40px;
-    padding: 15px;
-  }
-
-.wrapper {
-  text-align: center;
-}
-.button {
-  position: static;
-  background-color: black;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  font-size: 16px;
-}
-.button hover {
-  color: orange;
-}
-
-/* Packing list page */
-.column {
-  float: left;
-  width: 33.33%;
-  background-color: black;
-}
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
-/* Contact form */
-input[type=text], select, textarea {
-  font-family: permanent marker;
-  width: 100%;
-  padding: 12px;
-  background: white;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-input[type=submit]:hover {
-  background-color: orange;
-}
-.container {
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-} 
-.container {
-  color: white;
-}
+} */
+
 /* Footer */
 footer { 
   display: block;

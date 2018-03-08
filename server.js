@@ -28,6 +28,7 @@ app.listen(4000, () => {
     console.log("server connected");
 });
 
+
 app.set("view engine", "ejs");
 
 app.use(bodyParser.json())
