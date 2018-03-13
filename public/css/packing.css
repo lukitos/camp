@@ -1,31 +1,55 @@
 /* Packing list page */
-.column {
-    float: left;
-    width: 33.33%;
-    background-color: black;
-  }
-  div.columns       { 
-    width: 900px; 
-    margin: 0 auto;
-  }
-  div.columns div   { 
-    width: 300px; 
-    height: 100px; 
-    float: left; 
-  }
-  div.grey    {      
-     background-color: #cccccc; 
-    }
-  div.red           { 
-    background-color: #e14e32; 
-  }
-  div.clear         { 
-    clear: both; 
-  }
-  .red {
-    text-align: center;
-  }
-  .grey {
-    text-align: center;
-  }
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ 
+  *{
+    box-sizing: border-box;
+
+  }  
   
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: black;
+    color: pink;
+    float: middle;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: orange;
+}
+
+/* Columns */
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+
+}
+
+
+
+@media (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+/* Makes the columns responsive and stack when smaller screen */
+div {
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+/* List items */
+p {
+  color: white;
+}
