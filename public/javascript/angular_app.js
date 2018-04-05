@@ -28,5 +28,7 @@ app.config(function ($stateProvider, $httpProvider, $urlRouterProvider, $locatio
     $urlRouterProvider.otherwise('/notFound');
     $locationProvider.html5Mode(true);
   });
+  angular.module('camp', []);
+
 
   

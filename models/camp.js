@@ -8,7 +8,7 @@ let Schema = mongoose.Schema;
 //Create camp Schema and model
 let CampSchema = new Schema ({
 weather: {
-        type: string,
+        type: "string",
         required: [true,"weather field is required"],
         default: true
     },
