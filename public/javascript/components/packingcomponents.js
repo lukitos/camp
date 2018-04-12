@@ -1,6 +1,10 @@
-angular.module("camp").component("camplist", {
+angular.module("Camplist").component("camplist", {
     template: 
     "{{packing.list}}"
+   
     
 
 });
+
+
+

@@ -29,10 +29,6 @@ export class CampController {
 
 TodoController.$inject = ['TodoService', '$state'];
 
-export class AboutController {
-  constructor() {
-    this.message = 'About Us'
-  }
-}
+
         
     
