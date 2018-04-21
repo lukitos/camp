@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="Camplist">
+<html ng-app="app">
 <head>
   <title>Camping</title>
   <meta charset="utf-8">
@@ -30,9 +30,12 @@
       <a class="navlink" a class="nav-link" ui-sref="packing">Packing list</a>
     </li>
   </ul>
-  <main ui-view></main>
+  <!--main ui-view></main-->
   <!--app scripts -->
-  <script src="/javascript/components/packingcomponents.js"></script>
+  <ui-view></ui-view>
+  <script src="./javascript/components/packingcomponents.js"></script>
+  <!-- <script src="./javascript/components/packingcontroller.js"></script> -->
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script> $(".message a").click(function () {
       $("form").animate({ height: "toggle", opacity: "toggle" }), "slow"

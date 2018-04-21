@@ -1,5 +1,6 @@
 
-var app = angular.module("Camplist",["ui.router"]);
+var app = angular.module("app",["ui.router"]);
+app.controller("PackingController", PackingController);
 
 app.config(function ($stateProvider, $httpProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider
@@ -20,6 +21,8 @@ app.config(function ($stateProvider, $httpProvider, $urlRouterProvider, $locatio
         .state('packing', {
             url: '/packing',
             templateUrl: '/templates/packing.html' ,
+            controller: PackingController,
+            controllerAs: "controller"
             
         })
         

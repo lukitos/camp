@@ -1,17 +1,22 @@
-<html ng-app="Camplist">
+<!--html ng-app="app"
+<html>
                 <script src="packingcomponents.js"></script>
                 <script src="angular_app.js"></script>
-                <script src="packingcontroller.js"></script>
-<body ng-controller="PackingController"> 
+                <script src="packingcontroller.js"></script> -->
+
                 <h2>Here you will find the packing lists</h2>
                 <ul>
-                                <li ng-repeat="packing in packing">
-                                  <span>{{packing.list}}</span>
-                                </li>
+                                <!-- li ng-repeat="x in controller.packing">
+                                  {{x.items}}
+                                </li-->
+                                <li>{{controller.packinglist}}</li>
+                                <li>{{controller.pack}}</li>
+                                <!--li>{{controller.pack}}</li>
+                                <li>{{pack}}</li> -->
                               </ul>
- </body>
-</html>
-        <!-- <packing-list></packing-list> -->
+
+<!--/html>
+        < <packing-list></packing-list> -->
         <!-- <div class= "row">
                 <div class="column" style= "background-color: rgba(0, 0, 0, 0.5)">
                         <h2>Winter list</h2>
